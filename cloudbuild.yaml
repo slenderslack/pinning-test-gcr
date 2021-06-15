@@ -10,5 +10,5 @@ steps:
   - 'org.opencontainers.image.revision=docker/Dockerfile' 
   - '-f' 
   - 'docker/Dockerfile' 
-  - '.']
+  - '.'
 images: ['gcr.io/$PROJECT_ID/cj-test-docker']
