@@ -7,7 +7,7 @@ steps:
   - '--label' 
   - 'org.opencontainers.image.revision=$COMMIT_SHA' 
   - '--label' 
-  - 'org.opencontainers.image.revision=docker/Dockerfile' 
+  - 'org.opencontainers.image.source=docker/Dockerfile' 
   - '-f' 
   - 'docker/Dockerfile' 
   - '.'
