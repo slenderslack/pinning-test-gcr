@@ -11,4 +11,4 @@ steps:
   - '-f' 
   - 'docker/Dockerfile' 
   - '.'
-images: ['gcr.io/$PROJECT_ID/cj-test-docker']
+images: ['gcr.io/$PROJECT_ID/pinning-test-gcr']
