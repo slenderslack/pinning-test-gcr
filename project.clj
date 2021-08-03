@@ -5,7 +5,8 @@
 
   :dependencies [[ring/ring-core "1.8.2"]
                  [ring/ring-jetty-adapter "1.8.2"]
-                 [org.apache.camel/camel-core "2.15.0"]]
+                 [org.apache.camel/camel-core "2.6.0"]
+                 [org.springframework.security/spring-security-core "5.2.0.RELEASE"]]
 
   :exclusions [commons-logging log4j org.slf4j/slf4j-log4j12]
 
