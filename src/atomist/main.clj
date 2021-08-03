@@ -5,7 +5,8 @@
 (defn handler [_]
   {:status 200
    :headers {"Content-Type" "text/html"}
-   :body (-> {:version 129}
+   :body (-> {:branch {:name "breakit"
+                       :version 0}}
              (str))})
 
 (defn -main [& args]
